@@ -1,0 +1,28 @@
+{
+    "name": "turanct/epsilon-greedy",
+    "description": "More advanced A/B testing using Epsilon-Greedy algorithm",
+    "type": "library",
+    "homepage": "http://github.com/turanct/epsilon-greedy",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Toon Daelman",
+            "email": "spinnewebber_toon@hotmail.com",
+            "homepage": "http://turanct.wordpress.com",
+            "role": "Developer"
+        }
+    ],
+    "require-dev": {
+        "zerkalica/phpcs": "dev-master",
+        "symfony/yaml": "~2.1",
+        "phpunit/phpunit": "^4.8.6"
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "autoload": {
+        "psr-4": {
+            "Turanct\\Epsilon\\": "src/"
+        }
+    }
+}
