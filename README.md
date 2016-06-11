@@ -7,7 +7,7 @@ Read more about this in this [fantastic blog post](http://stevehanov.ca/blog/ind
 
 ## Usage
 
-TODO
+TODO. For now: require the package with composer, implement the interfaces. Go!
 
 
 ## Contributing
